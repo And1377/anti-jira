@@ -28,4 +28,9 @@ public class RegistrationController {
         return "successRegistration";
 
     }
+
+    @GetMapping("/login")
+    public String getLoginpage() {
+        return "login";
+    }
 }
